@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Monster Legends Wiki</string>
+    <string name="monsterName">Monster Name</string>
+    <string name="evolutionImage">evolution image</string>
+    <string name="evolutionLvl">evolution level</string>
+    <string name="elementType">element type</string>
+    <string name="welcome"> Tap Screen to Enter </string>
+
+    <string-array name="monster1">
+        <item name="power">100</item>
+        <item name="life">45</item>
+        <item name="speed">76</item>
+        <item name="stamina">98</item>
+    </string-array>
+
+    <string-array name="monster2">
+        <item name="power">100</item>
+        <item name="life">45</item>
+        <item name="speed">76</item>
+        <item name="stamina">98</item>
+    </string-array>
+
+</resources>

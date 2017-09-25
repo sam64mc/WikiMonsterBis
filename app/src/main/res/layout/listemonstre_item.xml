@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageMonstre"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <TextView
+        android:id="@+id/nomMonstre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageMonstre"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/imageMonstre"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/nomElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignBottom="@+id/imageElement"
+        android:layout_toEndOf="@+id/imageElement"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:id="@+id/imageElement"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_action_name"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/nomMonstre"
+        android:layout_alignStart="@+id/nomMonstre" />
+</RelativeLayout>
